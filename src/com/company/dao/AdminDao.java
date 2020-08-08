@@ -1,8 +1,7 @@
 package com.company.dao;
 
-import com.company.utils.domain.Admin;
+import com.company.domain.Admin;
 
-public interface AdminDao
-{
-    public Admin getAdminByNameByPass(String adminName,String password);
+public interface AdminDao {
+    public Admin getAdminByNameByPass(String adminName, String password);
 }
